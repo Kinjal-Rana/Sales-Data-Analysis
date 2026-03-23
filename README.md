@@ -1,18 +1,20 @@
 # Sales Data Analysis | Power BI Project
+Excel | Power BI | DAX | Data Modeling 
 
 ## Project Summary
-This project presents an end-to-end Sales Data Analysis solution built using Power BI, focusing on sales performance, profitability, customer behavior, promotions, and time-based comparisons.
+This project presents an end-to-end Sales Data Analysis solution built using Power BI, focusing on sales performance, profitability, and demand trends.
 
-The dashboard enables business users to make data-driven decisions through interactive visuals, advanced DAX calculations, and dynamic filtering.
+Microsoft Excel was used for data validation, basic analysis, and cross-checking to ensure data accuracy before visualization. The dashboard enables business users to make data-driven decisions and supports demand analysis for inventory planning.
 
 ### Business Objectives
-- Analyze sales, profit, and quantity trends over time
-- Identify top and bottom performing products
-- Evaluate promotion effectiveness and discounts
-- Compare sales performance across two different time periods
-- Understand customer and city-level sales distribution
+- Analyze sales, profit, and quantity trends over time  
+- Identify top and bottom performing products  
+- Evaluate promotion effectiveness and discounts  
+- Compare sales performance across time periods  
+- Support demand analysis for inventory and stock planning  
 
 ### Tools & Technologies
+- Microsoft Excel (Data validation and cross-checking, basic analysis)  
 - Power BI Desktop 
 - DAX
 - Power Query (ETL)
@@ -30,12 +32,20 @@ Tables Used:
 - Date Table 1 (Active)
 - Date Table 2 (Inactive – for comparison)
 
+## Key Responsibilities  
+- Cleaned and transformed raw data using Power Query  
+- Performed data validation and cross-checking using Microsoft Excel  
+- Built data models to support efficient reporting and analysis  
+- Developed DAX measures for sales, profit, and time-based comparisons  
+- Designed interactive dashboards to analyze sales trends and product performance  
+- Generated insights to support demand analysis and operational decision-making  
+
 ## Dashboard Highlights
-- Interactive dashboards for sales, profit, quantity, and promotions analysis to enable period-over-period comparison
-- Star schema data model for optimized performance and scalability
-- Dual date tables enabling time-based comparison using USERELATIONSHIP()
-- Dynamic filtering using slicers and edit interactions
-- Combination of KPI cards, clustered column charts, scatter plots, maps, and tables
+- Interactive dashboards for sales, profit, quantity, and promotion analysis  
+- KPI tracking for performance monitoring  
+- Time-based comparison using dual date tables  
+- Dynamic filtering with slicers and interactive visuals  
+- Combination of charts, maps, and tables for detailed analysis
 
 ## How to Use the Dashboard
 - Use slicers to filter data by date, customer, product, promotion, and city
@@ -101,50 +111,23 @@ Insight:
 
 ![Key Performance Indicators](images/total_orders_kpi.png)
 
-### Detailed Transaction Table
-Fully interactive table showing:
-- Order ID
-- Customer ID
-- Product ID
-- Promotion
-- Discount
-- Net Sales
-- Profit
-- Quantity Sold
-
-Supports filtering by:
-- Date
-- Customer Name
-- Product Name
-- Promotion Name
-
-![Detailed Sales Table](images/sales_detail_table.png)
-
-### Key DAX Concepts Used
-- CALCULATE()
-- SUM()
-- USERELATIONSHIP()
-- ALL()
-- Time intelligence logic
-- Measure tables for clean modeling
-
 ### Key Business Insights
-- A small number of products drive the majority of revenue
-- Discounts significantly impact sales during promotional periods
-- High sales volume does not always mean high profitability
-- Period comparison reveals clear performance growth patterns
+- A small number of products drive the majority of sales  
+- Sales show seasonal trends, useful for demand planning  
+- Discounts significantly impact sales performance  
+- High sales volume does not always result in high profitability  
 
 ### Outcome
-This project demonstrates:
-- Strong understanding of Power BI data modeling and DAX
-- Ability to analyze sales, profitability, and customer behavior
-- Experience building business-ready dashboards for decision-making
-- Practical use of time intelligence and promotion analysis
+Developed a business-focused analytics solution combining Excel and Power BI to support sales analysis, demand identification, and inventory planning decisions.
 
 ## Skills Demonstrated
-- Sales & Business Performance Analysis
-- Power BI Dashboard Design
-- Data Modeling (Star Schema)
-- DAX (Time Intelligence & KPIs)
-- Data Cleaning & ETL (Power Query)
-- Analytical Storytelling
+- Microsoft Excel for data validation and reporting support  
+- Sales & Demand Analysis  
+- Power BI Dashboard Development  
+- Data Modeling (Star Schema)  
+- DAX (Time Intelligence & KPIs)  
+- Data Cleaning & ETL  
+- Analytical Thinking & Business Insights
+
+## Disclaimer  
+This project uses a sample dataset for educational purposes and does not represent real company data.
