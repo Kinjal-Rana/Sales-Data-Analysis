@@ -38,7 +38,7 @@ Tables Used:
 - Built data models to support efficient reporting and analysis  
 - Developed DAX measures for sales, profit, and time-based comparisons  
 - Designed interactive dashboards to analyze sales trends and product performance  
-- Generated insights to support demand analysis and operational decision-making  
+- Generated insights to support demand analysis, inventory planning, and operational decision-making  
 
 ## Dashboard Highlights
 - Interactive dashboards for sales, profit, quantity, and promotion analysis  
@@ -72,7 +72,7 @@ Map visualization highlighting Net Sales by City.
 
 Insights:
 - Identifies top revenue-generating cities
--Helps in regional sales strategy and expansion planning
+- Helps in regional sales strategy and expansion planning
 
 ![Net Sales by City](images/net_sales_city_map.png)
 
